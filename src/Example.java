@@ -52,6 +52,7 @@ public class Example extends JFrame {
   class FileTypeFliter extends FileFilter{
 	 private final String extension;
 	 private final String description;
+  }
  
  class MyDraw extends JPanel {
 	 Point start=null, end=null; 
